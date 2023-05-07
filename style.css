@@ -1,0 +1,346 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  box-shadow: 0px 0px 20px rgba(1, 1, 1, 0.05);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+.text-muted a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header section */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+/* About Me section */
+#about-me {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#about-me h2 {
+  margin-top: 0;
+}
+
+#about-me p {
+  margin-bottom: 0;
+}
+
+/* Work Experience section */
+#work-experience {
+  padding: 50px 0;
+}
+
+#work-experience h2 {
+  margin-top: 0;
+}
+
+#work-experience table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+}
+
+#work-experience th,
+#work-experience td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Programming Skills section */
+#programming-skills {
+  padding: 50px 0;
+}
+
+#programming-skills h2 {
+  margin-top: 0;
+}
+
+#programming-skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#programming-skills li {
+  margin-bottom: 5px;
+}
+
+#programming-skills li span {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+}
+
+/* Coding section */
+#coding {
+  padding: 50px 0;
+}
+
+#coding h2 {
+  margin-top: 0;
+}
+
+#coding .card {
+  margin-bottom: 20px;
+}
+
+#coding .card-title {
+  margin-bottom: 10px;
+}
+
+#coding .card-body {
+  padding: 10px;
+}
+
+/* Education section */
+#education {
+  padding: 50px 0;
+}
+
+#education h2 {
+  margin-top: 0;
+}
+
+#education table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 0;
+}
+
+#education th,
+#education td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#education .chart-container {
+  position: relative;
+  height: 200px;
+}
+
+/* IT Training section */
+#it-training {
+  padding: 50px 0;
+}
+
+#it-training h2 {
+  margin-top: 0;
+}
+
+#it-training ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#it-training li {
+  margin-bottom: 5px;
+}
+
+#it-training li span {
+  display: inline-block;
+  width: 200px;
+  font-weight: bold;
+}
+
+/* Certifications section */
+#certifications {
+  padding: 50px 0;
+}
+
+#certifications h2 {
+  margin-top: 0;
+}
+
+#certifications ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#certifications li {
+  margin-bottom: 5px;
+}
+
+/* Publications section */
+#publications {
+  padding: 50;
+}
+.icons {
+  margin-top: 20px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Global styles */
+  body {
+    font-size: 14px;
+  }
+
+  /* Header section */
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  /* About Me section */
+  #about-me {
+    padding: 30px 0;
+  }
+
+  #about-me h2 {
+    font-size: 20px;
+  }
+
+  /* Work Experience section */
+  #work-experience {
+    padding: 30px 0;
+  }
+
+  #work-experience h2 {
+    font-size: 20px;
+  }
+
+  #work-experience table {
+    font-size: 12px;
+  }
+
+  /* Programming Skills section */
+  #programming-skills {
+    padding: 30px 0;
+  }
+
+  #programming-skills h2 {
+    font-size: 20px;
+  }
+
+  #programming-skills ul {
+    font-size: 12px;
+  }
+
+  /* Coding section */
+  #coding {
+    padding: 30px 0;
+  }
+
+  #coding h2 {
+    font-size: 20px;
+  }
+
+  #coding .card-title {
+    font-size: 16px;
+  }
+
+  #coding .card-body {
+    padding: 5px;
+  }
+
+  /* Education section */
+  #education {
+    padding: 30px 0;
+  }
+
+  #education h2 {
+    font-size: 20px;
+  }
+
+  #education table {
+    font-size: 12px;
+  }
+
+  /* IT Training section */
+  #it-training {
+    padding: 30px 0;
+  }
+
+  #it-training h2 {
+    font-size: 20px;
+  }
+
+  #it-training ul {
+    font-size: 12px;
+  }
+
+  /* Certifications section */
+  #certifications {
+    padding: 30px 0;
+  }
+
+  #certifications h2 {
+    font-size: 20px;
+  }
+
+  #certifications ul {
+    font-size: 12px;
+  }
+
+  /* Publications section */
+  #publications {
+    padding: 30px 0;
+  }
+
+  .icons {
+    font-size: 20px;
+  }
+}
+
+.title {
+  font-size: 36px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 50px;
+}
+
+.publications li {
+  margin-bottom: 10px;
+}
+.titles {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
